@@ -1,0 +1,45 @@
+:root {
+    --white: hsl(0, 0, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    margin: 0;
+    width: 100vw;
+    height: 100vh
+}
+
+.primary-container {
+    box-sizing: border-box;
+    background-color: var(--grayish-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 77vh;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 10px;
+}
+
+img {
+
+    border-radius: 10px;
+}
+
+body p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mini-header {
+    font-weight: 700;
+}
